@@ -1,6 +1,6 @@
 import log from 'loglevel';
 
-if (import.meta.env.PROD) {
+if (process.env.NODE_ENV === 'production') {
   // display logs of type: warn, error)
   log.setLevel('warn');
 } else {

@@ -11,15 +11,23 @@ A React-based tax calculation application built with TypeScript and Vite.
 
 ```bash
 # Clone the repository
-git clone [https://github.com/rudylpzjme/tax-calculator]
+git clone https://github.com/rudylpzjme/tax-calculator
 cd tax-calculator
 
 # Install dependencies
 npm install
 ```
 
-## Development
+## Environment Variables
 
+1. Copy `.env.example` to a new file named `.env`
+2. Replace placeholder values with your configuration
+
+```bash
+cp .env.example .env
+```
+
+## Development
 Start the development server:
 ```bash
 npm run dev
